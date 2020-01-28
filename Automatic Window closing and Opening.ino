@@ -29,7 +29,7 @@
       Serial.print("ldr--");
       Serial.print(Value);
       Serial.println();
-     temp=analogRead(tempPin);  // temperature reading here i have used LM35 sensor
+      temp=analogRead(tempPin);  // temperature reading here i have used LM35 sensor
       temp=(temp*500)/1023;  //to find the celcius
       lcd.setCursor(0,1);
       lcd.print("temperature is =");
